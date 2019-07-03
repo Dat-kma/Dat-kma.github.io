@@ -1,0 +1,32 @@
+// Open Sans font
+@font-face {
+  font-family: 'Open Sans';
+  font-weight: $light;
+  src: url('https://statics.vntrip.vn/fonts/opensans-300-normal-webfont.ttf') format('ttf'),
+  url('https://statics.vntrip.vn/fonts/opensans-300-normal-webfont.eot') format('eot'),
+  url('https://statics.vntrip.vn/fonts/opensans-300-normal-webfont.svg') format('svg'),
+  url('https://statics.vntrip.vn/fonts/opensans-300-normal-webfont.woff') format('woff');
+
+}
+
+@font-face {
+  font-family:'Dancing Script';
+  font-weight:normal;
+  font-style:normal;
+  src:url('../webfonts/DancingScript-Bold.ttf') format('ttf'),
+  url('../webfonts/DancingScript-Regular.ttf') format('ttf'),
+}
+
+@font-face {
+  font-family:'lato';
+  font-weight:normal;
+  font-style:normal;
+  src:url('../webfonts/Lato.tff') format('ttf'),
+}
+
+@font-face {
+  font-family:'Yellowtail';
+  font-weight:600;
+  font-style:normal;
+  src:url('../webfonts/Yellowtail-Regular.ttf') format('ttf'),
+}

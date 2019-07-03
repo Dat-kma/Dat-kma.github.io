@@ -1,0 +1,130 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+@import "libs/libs";
+@import "bases/bases";
+@import "modules/modules";
+@import "layouts/layouts";
+main{
+  .sum-product{
+    padding: 100px 0px;
+    .table{
+      border: 1px solid #bbb;
+      padding: 0;
+      overflow: hidden;
+      .table-item{
+        padding: 0px;
+        text-align: center;
+        .images{
+          margin-left: 30px;
+          padding: 20px 0px;
+          img{
+            width: 60px;
+            margin-left: 50px;
+          }
+        }
+        .title{
+          height: 48px;
+          width: 100%;
+          background: #ff9c00;
+          line-height: 48px;
+          font-size: 18px;
+          font-weight: 450;
+          color: white;
+        }
+        .text{
+          padding: 20px 0px;
+          p{
+            font-size: 16px;
+            color: black;
+            transform: translateY(15px);
+            span{
+              margin-left: 10px;
+            }
+          }
+          p.bold{
+            font-size: 18px;
+            font-weight: 600;
+            text-transform: uppercase ;
+            transform: translateY(0px);
+          }
+          p.size{
+            transform: translateY(0px);
+          }
+          p.quanlity {
+            width: 45px;
+            height: 45px;
+            background: #ccc;
+            margin: auto;
+            text-align: center;
+            border-radius: 5px;
+            line-height: 45px;
+            transform: translateY(0px)!important;
+            }
+        }
+      }
+    }
+    .table-title{
+      display: block;
+      width: 100%;
+      text-align: right;
+      font-size: 22px;
+      font-weight: 600;
+      margin-bottom: 15px;
+    }
+    .table-1 {
+      border-collapse: collapse;
+      border-spacing: 0;
+      width: 100%;
+      text-align: center;
+      border: 1px solid rgba(0, 0, 0, 0.52);
+      margin-bottom: 30px;
+      tr{
+       &:first-child{
+         border-bottom: 1px solid #ccc;
+       }
+        padding: 10px;
+      }
+      th,td{
+        padding: 10px;
+      }
+      th{
+        font-weight: 450;
+      }
+      td{
+        span{
+          color: #ff9c00;
+          font-weight: 600;
+        }
+      }
+    }
+    .button-group{
+      margin: auto;
+      a{
+        .btn-orange{
+          width: 240px;
+        }
+      }
+    }
+
+  }
+  .sum-product{
+    padding: 50px 0px;
+    @media (max-width: 767px) {
+      .table{
+        .table-item{
+          margin-bottom: 20px;
+        }
+      }
+      .button-group{
+        a{
+          display: block;
+        }
+        .return-menu{
+          margin-bottom: 30px;
+        }
+      }
+    }
+  }
+}

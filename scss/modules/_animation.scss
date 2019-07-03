@@ -1,0 +1,41 @@
+@keyframes carousel-effect {
+  0%{
+    transform: translateY(0px);
+    transition: 0.8s;
+  }
+  15%{
+    transform: translateY(-35px);
+    transition: 0.8s;
+  }
+  30%{
+    transform: translateY(0px);
+    transition: 0.8s;
+  }
+  45%{
+    transform: translateY(-25px);
+    transition: 0.8s;
+  }
+  60%{
+    transform: translateY(-5px);
+    transition: 0.8s;
+  }
+  75%{
+    transform: translateY(-15px);
+    transition: 0.8s;
+  }
+  100%{
+    transform: translateY(0px);
+    transition: 0.8s;
+  }
+}
+
+@keyframes navbar-down {
+  from{
+    transform: translateY(-150px);
+    opacity: 0 ;
+  }
+  to{
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}

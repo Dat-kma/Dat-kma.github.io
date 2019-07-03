@@ -1,0 +1,62 @@
+doctype html
+html(lang="vi")
+    head
+        include jades/head.jade
+        link(rel="stylesheet" href="css/yourcart.css")
+    body
+        include jades/header.jade
+        include jades/navbar.jade
+        include jades/banner-menu.jade
+        main
+            .sum-product
+                .container
+                    .row
+                        .col-sm-10.offset-sm-1
+                            .table
+                                .row
+                                    .col-sm-4.table-item
+                                       .title
+                                       .images
+                                           i.fa.fa-times
+                                           img(src="images/12.png")
+                                    .col-sm-2.table-item
+                                        .title Product
+                                        .text
+                                            p.bold burrata
+                                            p.size
+                                                | Size:
+                                                span lagre
+                                    .col-sm-2.table-item
+                                        .title Price
+                                        .text
+                                            p $27.00
+                                    .col-sm-2.table-item
+                                        .title Quanlity
+                                        .text
+                                            p.quanlity 1
+                                    .col-sm-2.table-item
+                                        .title Total
+                                        .text
+                                            p $27.00
+
+
+                            .table-title  Cart Totals
+                        .col-sm-4.offset-sm-7
+                            table.table-1
+                                tr
+                                    th Subotal
+                                    td $2700
+                                tr
+                                    th Total
+                                    td
+                                        span $2700
+                        .button-group
+                            a.return-menu(href="menu.html")
+                                button.btn.btn-orange return to menu
+                            a(href="")
+                                button.btn.btn-orange proced to checkout
+        include jades/footer.jade
+        .background-moblie
+        script(type='text/javascript' src="js/libs/jquery-3.2.1.slim.min.js")
+        script(type='text/javascript' src="js/libs/bootstrap-4.0.0.min.js")
+        script(type="text/javascript" src="main.js")

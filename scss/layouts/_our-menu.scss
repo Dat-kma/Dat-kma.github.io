@@ -1,0 +1,277 @@
+section.our-menu{
+  padding: 100px 0px;
+  .our-menu-text{
+    text-align:center!important;
+    h2{
+      font-size: 40px;
+      font-family: "Dancing Script";
+      color: #ff9c00;
+      font-weight: bold;
+    }
+    span{
+      font-size: 22px;
+      font-family: 'lato';
+      font-weight:600;
+      text-transform: uppercase;
+      display: block;
+      margin-top: 20px;
+      margin-bottom: 10px;
+    }
+    p{
+      font-size: 14px;
+      color: #999999;
+      font-family: 'lato';
+    }
+  }
+  .list-dish{
+    .list-dish-left{
+      width: 100%;
+      .dish-item{
+        padding: 20px;
+        margin-bottom: 30px;
+        border: 2px solid transparent;
+        transition: .3s;
+        cursor: pointer;
+        &:hover{
+          border: 2px solid #ff8916;
+        }
+        span{
+          font-weight: 450;
+          font-size: 16px;
+          text-transform: uppercase;
+          text-align: center;
+          display: block;
+        }
+        img{
+          width: 100%;
+        }
+      }
+      .active{
+        border: 2px solid #ff8916!important;
+      }
+      .sale{
+        &:before{
+          content: "SALE!";
+          width: 60px;
+          height: 60px;
+          background-color: red;
+          position: absolute;
+          line-height: 60px;
+          border-radius: 50%;
+          color: white;
+          font-weight: 700;
+          font-size: 13px;
+          text-align: center;
+          left: 35px;
+        }
+      }
+    }
+    .list-dish-center{
+      position: relative;
+      width: 100%;
+      .big-dish{
+        position: absolute;
+        top: 50%;
+        text-align: center;
+        transform: translateY(50%);
+        padding: 0px 70px;
+        img{
+          width: 430px;
+          height: 430px;
+        }
+        h4{
+          font-size: 20px;
+          text-transform: uppercase;
+          margin-top: 10px;
+        }
+        span{
+          font-size: 20px;
+          color: #ff9c00;
+          display: block;
+          margin-top: 10px;
+          h5{
+            text-decoration: line-through;
+            color: #777;
+            display: inline-block;
+            margin-right: 10px;
+            font-size: 15px;
+          }
+
+        }
+        .btn-buy_now{
+          width: 140px;
+          background: #ff9c00;
+          font-weight: 600;
+          font-size: 14px;
+          color: #222;
+          text-transform: uppercase;
+          border-radius: 100px;
+          border: 1px solid transparent;
+          height: 45px;
+          margin-top: 20px;
+          &:hover{
+            background: transparent;
+            border: 1px solid #ff9c00;
+          }
+          &:focus{
+            outline: none;
+            box-shadow: 0 0 0 0 ;
+          }
+        }
+      }
+      .active1{
+        display: block!important;
+      }
+    }
+    .list-dish-right{
+      width: 100%;
+      .dish-item{
+        padding: 20px;
+        margin-bottom: 30px;
+        border: 2px solid transparent;
+        transition: .3s;
+        cursor: pointer;
+        &:hover{
+          border: 2px solid #ff8916;
+        }
+        span{
+          font-weight: 450;
+          font-size: 16px;
+          text-transform: uppercase;
+          text-align: center;
+          display: block;
+        }
+        img{
+          width: 100%;
+        }
+      }
+      .active{
+        border: 2px solid #ff8916!important;
+      }
+    }
+  }
+}
+section.our-menu{
+  @media (max-width: 767px){
+    .list-dish{
+      .trai{
+        order: 1;
+        width: 50%;
+        .list-dish-left{
+          .dish-item{
+            span{
+              font-size: 12px;
+            }
+          }
+        }
+      }
+      .phai{
+        order: 2;
+        width: 50%;
+        .list-dish-right{
+          .dish-item{
+            span{
+              font-size: 12px;
+            }
+          }
+        }
+      }
+      .giua{
+        order: 3;
+        .list-dish-center{
+          .big-dish{
+            position: inherit;
+            padding: 0px;
+            transform: translateY(0px);
+            img{
+              width: 250px;
+              height: 250px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+section.our-menu{
+  @media (max-width: 991px) {
+    .list-dish{
+      .list-dish-center{
+        .big-dish{
+          img{
+            width: 200px;
+            height: 200px;
+          }
+        }
+      }
+    }
+  }
+}
+section.feel_back-member{
+  background: url("../images/3.png");
+  width: 100%;
+  height: 480px;
+  position: relative;
+  .bg-black{
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5686274509803921);
+  }
+  .feel_back-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    h3{
+      text-align: center;
+      font-size: 40px;
+      font-family: "Dancing Script";
+      color: white;
+      margin-bottom: 30px;
+    }
+    .buddy{
+      align-items: center;
+      margin: auto;
+      p{
+        display: inline-block;
+        font-size: 18px;
+        color: #ff9c00;
+        font-weight: 600;
+        text-transform: uppercase;
+        padding: 0 20px;
+      }
+
+    }
+
+  }
+
+}
+section.feel_back-member{
+  @media (max-width: 767px){
+    height: 160px;
+    .feel_back-text{
+      width: 100%;
+      h3{
+        font-size: 20px;
+        margin-bottom: 10px;
+      }
+      .buddy{
+        img{
+          width: 40px;
+        }
+        p{
+          font-size: 14px;
+        }
+      }
+    }
+  }
+}
+section.feel_back-member{
+  @media (max-width: 991px) and (min-width: 767px){
+    .feel_back-text{
+      width: 100%;
+      padding: 0px 20px;
+    }
+  }
+}

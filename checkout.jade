@@ -1,0 +1,78 @@
+doctype html
+html(lang="vi")
+    head
+        include jades/head.jade
+        link(rel="stylesheet" href="css/checkout.css")
+    body
+        include jades/header.jade
+        include jades/navbar.jade
+        include jades/banner-menu.jade
+        main
+            section.content-two
+                .container
+                    .form-billing
+                        .row
+                            .col-sm-6
+                                .billing-detail
+                                    .title Billing details
+                                    .row
+                                        .col-sm-6
+                                            .form-item
+                                                label First name
+                                                input.form-control(type="text" name="first name")
+                                        .col-sm-6
+                                            .form-item
+                                                label Last name
+                                                input.form-control(type="text" name="last name")
+                                        .col-sm-6
+                                            .form-item
+                                                label Email
+                                                input.form-control(type="text" name="email")
+                                        .col-sm-6
+                                            .form-item
+                                                label Phone
+                                                input.form-control(type="text" name="phone")
+                                        .col-sm-12
+                                            .form-item
+                                                label Address
+                                                input.form-control(type="text" name="address")
+
+                            .col-sm-6
+                                .add-impormation
+                                    .title Additional Information
+                                    form
+                                        label(for="exampletextarea") Order Note
+                                        textarea.form-control#exampletextarea( placeholder="Notes about your order")
+
+                    .form-your-order
+                        .title Your order
+                        .form-order
+                            .row.line-1
+                                .col-sm-6
+                                    p Product
+                                .col-sm-6
+                                    p.d-none.d-sm-block Total
+                            .row.line-2
+                                .col-sm-6
+                                    span.name BURRATA
+                                    span.size Size
+                                .col-sm-6
+                                    span.price.d-none.d-sm-block #27.00
+                            .row.line-3
+                                .col-sm-12
+                                    .subtotal
+                                        p Subtotal :
+                                        span $27.00
+                            .row.line-4
+                                .col-sm-12
+                                    .subtotal
+                                        p Total :
+                                        span.price $27.00
+
+                    a(href="yourcart.html")
+                        button.btn.btn-orange Place order
+        include jades/footer.jade
+        .background-moblie
+        script(type='text/javascript' src="js/libs/jquery-3.2.1.slim.min.js")
+        script(type='text/javascript' src="js/libs/bootstrap-4.0.0.min.js")
+        script(type="text/javascript" src="main.js")

@@ -1,0 +1,37 @@
+section.content-one{
+  background: url('../images/blog-banner.jpg') no-repeat center;
+  background-size: cover;
+  height: 350px;
+  text-align: center;
+  .content-text{
+    h2{
+      color: white;
+      font-size: 50px;
+      font-weight: 700;
+      padding-top: 150px;
+      text-transform: uppercase;
+    }
+    a,span{
+      color: white;
+      font-size: 14px;
+      font-weight: 600;
+      text-decoration: none;
+      text-transform: uppercase;
+    }
+    .text_center{
+      &:before{
+        content: "/";
+        padding: 0 10px;
+      }
+    }
+    span{
+      color: #ff9c00;
+      &:before{
+        content: "/";
+        color: white;
+        padding: 0 10px;
+        font-weight: 600;
+      }
+    }
+  }
+}

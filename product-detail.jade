@@ -1,0 +1,99 @@
+doctype html
+html(lang="vi")
+    head
+        include jades/head.jade
+        link(rel="stylesheet" href="css/product-detail.css")
+    body
+        include jades/header.jade
+        include jades/navbar.jade
+
+        main
+            section.content-one
+                .container
+                    .content-text
+                        h2  burrata
+                        a(href="") Home
+                        a.text_center(href="") Menu
+                        span burrata
+            section.content-two
+                .container
+                    .content-two_top
+                        .row
+                            .col-sm-6
+                                .content-img
+                                    img(src="images/61-product.png")
+                            .col-sm-6
+                                .content-text
+                                    h2 BURRATA
+                                    .price-color $22.00 – $27.00
+                                    p.d-none.d-sm-block     Integer vitae enim vel nisi feugiat ultricies. Phasellus hendrerit pharetra posuere. In hac habitasse platea dictumst. Integer diam nulla, condimentum sit amet pretium id, lobortis vel tellus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam id.
+                                    form.choose-size
+                                        label Size
+                                        select
+                                            option choose an option
+                                            option large
+                                            option medium
+                                            option small
+                                    form.choose-amount
+                                        label Quanlity
+                                        input(type="number" name="quanlity" min="1" max="50" value="1")
+                                    a(href="checkout.html")
+                                        button.btn-orange add to cart
+                    .content-two-bottom
+                        h5 Related Products
+                        img(src="images/41.png")
+                        .related-product
+                            .row
+                                .col-sm-3.col-xs-6
+                                    .product.sale
+                                        a(href="")
+                                            img(src="images/12.png")
+                                            i.fa.fa-link
+                                        h5 BURRATA
+                                        p Integer vitae enim vel nisi feugiat ultricies. Phasellus...
+                                        .price
+                                            span $22.00
+                                            | $27.00
+                                        a(href="product-detail.html")
+                                            button.btn.btn-orange select options
+
+
+                                .col-sm-3.col-xs-6
+                                    .product
+                                        a(href="")
+                                            img(src="images/14.png")
+                                            i.fa.fa-link
+                                        h5 GLUTEN-FREE PASTA
+                                        p Integer vitae enim vel nisi feugiat ultricies. Phasellus...
+                                        .price  $13.50 – $17.50
+                                        a(href="product-detail.html")
+                                            button.btn.btn-orange select options
+                                .col-sm-3.col-xs-6
+                                    .product
+                                        a(href="")
+                                            img(src="images/25.png")
+                                            i.fa.fa-link
+                                        h5 PROSCIUTTO
+                                        p Integer vitae enim vel nisi feugiat ultricies. Phasellus...
+                                        .price  $15.00 – $19.00
+                                        a(href="product-detail.html")
+                                            button.btn.btn-orange select options
+                                .col-sm-3.col-xs-6
+                                    .product
+                                        a(href="")
+                                            img(src="images/15.png")
+                                            i.fa.fa-link
+                                        h5 MOZARELLA
+                                        p Integer vitae enim vel nisi feugiat ultricies. Phasellus...
+                                        .price  $14.30 – $18.45
+                                        a(href="product-detail.html")
+                                            button.btn.btn-orange select options
+
+
+
+
+        include jades/footer.jade
+        .background-moblie
+        script(type='text/javascript' src="js/libs/jquery-3.2.1.slim.min.js")
+        script(type='text/javascript' src="js/libs/bootstrap-4.0.0.min.js")
+        script(type="text/javascript" src="main.js")

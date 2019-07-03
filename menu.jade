@@ -1,0 +1,328 @@
+doctype html
+html(lang="vi")
+    head
+        include jades/head.jade
+        link(rel="stylesheet" href="css/menu.css")
+body
+    include jades/header.jade
+    include jades/navbar.jade
+    section.content-one
+        .container
+            .content-text
+                h2  MENU
+                a(href="") Home
+                span menu
+    main
+        section.main-content
+            .container
+                .content-text
+                    h2 Featured Dishes
+                    img(src="images/41.png")
+                .list-button
+                    ul
+                        li.active(data-option="pizzas")
+                            a.btn-pizzas(href="") Pizzas
+                        li(data-option="pasta")
+                            a.btn-pasta(href="" ) Pasta
+                        li(data-option="salads")
+                            a.btn-salads(href="") Salads
+                        li(data-option="drinks")
+                            a.btn-dribks(href="") Drinks
+                .list-dish
+                    .product-item.hienlen.tab-content#pizzas
+                        .row
+                            .col-sm-3.col-xs-6
+                               .product
+                                    a(href="")
+                                        img(src="images/12.png")
+                                        i.fa.fa-link
+                                    h5 BURRATA
+                                    p Integer vitae enim vel nisi feugiat ultricies. Phasellus...
+                                    .price  $22.00 – $27.00
+                                    a(href="product-detail.html")
+                                        button.btn.btn-orange buy now
+
+
+
+
+                            .col-sm-3.col-xs-6
+                                .product.sale
+                                    a(href="")
+                                        img(src="images/27.png")
+                                        i.fa.fa-link
+                                    h5 CALZONE
+                                    p Integer vitae enim vel nisi feugiat ultricies. Phasellus...
+                                    .price
+                                        span $22.00
+                                        | $16.00
+                                    a(href="product-detail.html")
+                                        button.btn.btn-orange buy now
+                            .col-sm-3.col-xs-6
+                                .product
+                                    a(href="")
+                                        img(src="images/26.png")
+                                        i.fa.fa-link
+                                    h5 GLUTE-FREE PIZZA
+                                    p Integer vitae enim vel nisi feugiat ultricies. Phasellus...
+                                    .price  $19.00 – $24.00
+                                    a(href="product-detail.html")
+                                        button.btn.btn-orange buy now
+                            .col-sm-3.col-xs-6
+                                .product
+                                    a(href="")
+                                        img(src="images/15.png")
+                                        i.fa.fa-link
+                                    h5 MOZARELLA
+                                    p Integer vitae enim vel nisi feugiat ultricies. Phasellus...
+                                    .price  $15.00 – $19.00
+                                    a(href="product-detail.html")
+                                        button.btn.btn-orange buy now
+                            .col-sm-3.col-xs-6
+                                .product
+                                    a(href="")
+                                        img(src="images/25.png")
+                                        i.fa.fa-link
+                                    h5 PROSCIUTTO
+                                    p Integer vitae enim vel nisi feugiat ultricies. Phasellus...
+                                    .price  $13.50 – $17.50
+                                    a(href="product-detail.html")
+                                        button.btn.btn-orange buy now
+                            .col-sm-3.col-xs-6
+                                .product.sale
+                                    a(href="")
+                                        img(src="images/26.png")
+                                        i.fa.fa-link
+                                    h5 MOZARELLA
+                                    p Integer vitae enim vel nisi feugiat ultricies. Phasellus...
+                                    .price
+                                        span $22.90
+                                        |$17.00
+                                    a(href="product-detail.html")
+                                        button.btn.btn-orange buy now
+                            .col-sm-3.col-xs-6
+                                .product
+                                    a(href="")
+                                        img(src="images/14.png")
+                                        i.fa.fa-link
+                                    h5 GLUTEN-FREE PASTA
+                                    p Integer vitae enim vel nisi feugiat ultricies. Phasellus...
+                                    .price  $15.00 – $19.00
+                                    a(href="product-detail.html")
+                                        button.btn.btn-orange buy now
+                            .col-sm-3.col-xs-6
+                                .product
+                                    a(href="")
+                                        img(src="images/12.png")
+                                        i.fa.fa-link
+                                    h5 QUATTRO FORMAGGI
+                                    p Integer vitae enim vel nisi feugiat ultricies. Phasellus...
+                                    .price  $15.00 – $19.00
+                                    a(href="product-detail.html")
+                                        button.btn.btn-orange buy now
+
+
+
+                    .product-item.tab-content#pasta
+                        .row
+                            .col-sm-3.col-xs-6
+                                .product
+                                    a(href="")
+                                        img(src="images/25.png")
+                                        i.fa.fa-link
+                                    h5 GLUTEN-FREE PASTA
+                                    p Integer vitae enim vel nisi feugiat ultricies. Phasellus...
+                                    .price  $14.30 – $18.45
+                                    a(href="product-detail.html")
+                                        button.btn.btn-orange buy now
+
+                            .col-sm-3.col-xs-6
+                                .product
+                                    a(href="")
+                                        img(src="images/26.png")
+                                        i.fa.fa-link
+                                    h5 VEGETARIAN PASTA
+                                    p Integer vitae enim vel nisi feugiat ultricies. Phasellus...
+                                    .price  $14.00 – $18.00
+                                    a(href="product-detail.html")
+                                        button.btn.btn-orange buy now
+                            .col-sm-3.col-xs-6
+                                .product.sale
+                                    a(href="")
+                                        img(src="images/12.png")
+                                        i.fa.fa-link
+                                    h5 BURRATA
+                                    p Integer vitae enim vel nisi feugiat ultricies. Phasellus...
+                                    .price
+                                        span $24.00
+                                        |$19.00
+                                    a(href="product-detail.html")
+                                        button.btn.btn-orange buy now
+                            .col-sm-3.col-xs-6
+                                .product
+                                    a(href="")
+                                        img(src="images/42.png")
+                                        i.fa.fa-link
+                                    h5 MOZARELLA
+                                    p Integer vitae enim vel nisi feugiat ultricies. Phasellus...
+                                    .price  $15.00 – $19.00
+                                    a(href="product-detail.html")
+                                        button.btn.btn-orange buy now
+                            .col-sm-3.col-xs-6
+                                .product
+                                    a(href="")
+                                        img(src="images/43.png")
+                                        i.fa.fa-link
+                                    h5 PROSCIUTTO
+                                    p Integer vitae enim vel nisi feugiat ultricies. Phasellus...
+                                    .price  $13.50 – $17.50
+                                    a(href="product-detail.html")
+                                        button.btn.btn-orange buy now
+                            .col-sm-3.col-xs-6
+                                .product
+                                    a(href="")
+                                        img(src="images/15.png")
+                                        i.fa.fa-link
+                                    h5 MOZARELLA
+                                    p Integer vitae enim vel nisi feugiat ultricies. Phasellus...
+                                    .price  $15.00 – $19.00
+                                    a(href="product-detail.html")
+                                        button.btn.btn-orange buy now
+                            .col-sm-3.col-xs-6
+                                .product
+                                    a(href="")
+                                        img(src="images/14.png")
+                                        i.fa.fa-link
+                                    h5 GLUTEN-FREE PASTA
+                                    p Integer vitae enim vel nisi feugiat ultricies. Phasellus...
+                                    .price  $22.00 – $27.00
+                                    a(href="product-detail.html")
+                                        button.btn.btn-orange buy now
+
+
+                    .product-item.tab-content#salads
+                        .row
+                            .col-sm-3.col-xs-6
+                                .product
+                                    a(href="")
+                                        img(src="images/25.png")
+                                        i.fa.fa-link
+                                    h5 BURRATA
+                                    p Integer vitae enim vel nisi feugiat ultricies. Phasellus...
+                                    .price  $22.00 – $27.00
+                                    a(href="product-detail.html")
+                                        button.btn.btn-orange buy now
+
+
+
+
+                            .col-sm-3.col-xs-6
+                                .product
+                                    a(href="")
+                                        img(src="images/26.png")
+                                        i.fa.fa-link
+                                    h5 BURRATA
+                                    p Integer vitae enim vel nisi feugiat ultricies. Phasellus...
+                                    .price  $22.00 – $27.00
+                                    a(href="product-detail.html")
+                                        button.btn.btn-orange buy now
+                            .col-sm-3.col-xs-6
+                                .product
+                                    a(href="")
+                                        img(src="images/12.png")
+                                        i.fa.fa-link
+                                    h5 BURRATA
+                                    p Integer vitae enim vel nisi feugiat ultricies. Phasellus...
+                                    .price  $22.00 – $27.00
+                                    a(href="product-detail.html")
+                                        button.btn.btn-orange buy now
+                            .col-sm-3.col-xs-6
+                                .product
+                                    a(href="")
+                                        img(src="images/42.png")
+                                        i.fa.fa-link
+                                    h5 BURRATA
+                                    p Integer vitae enim vel nisi feugiat ultricies. Phasellus...
+                                    .price  $22.00 – $27.00
+                                    a(href="product-detail.html")
+                                        button.btn.btn-orange buy now
+                    .product-item.tab-content#drinks
+                        .row
+                            .col-sm-3.col-xs-6
+                                .product
+                                    a(href="")
+                                        img.images-drink(src="images/44.png")
+                                        i.fa.fa-link
+                                    h5 STRAWBERRY MIX
+                                    p Integer vitae enim vel nisi feugiat ultricies. Phasellus...
+                                    .price  $25.00
+                                    a(href="product-detail.html")
+                                        button.btn.btn-orange buy now
+
+                            .col-sm-3.col-xs-6
+                                .product
+                                    a(href="")
+                                        img.images-drink(src="images/45.png")
+                                        i.fa.fa-link
+                                    h5 BLUEBERRY FLAVOUR
+                                    p Integer vitae enim vel nisi feugiat ultricies. Phasellus...
+                                    .price  $15.00
+                                    a(href="product-detail.html")
+                                        button.btn.btn-orange buy now
+                            .col-sm-3.col-xs-6
+                                .product
+                                    a(href="")
+                                        img.images-drink(src="images/46.png")
+                                        i.fa.fa-link
+                                    h5 MOZARELLA
+                                    p Integer vitae enim vel nisi feugiat ultricies. Phasellus...
+                                    .price $19.00
+                                    a(href="product-detail.html")
+                                        button.btn.btn-orange buy now
+                            .col-sm-3.col-xs-6
+                                .product
+                                    a(href="")
+                                        img.images-drink(src="images/47.png")
+                                        i.fa.fa-link
+                                    h5 ORANGE MIX
+                                    p Integer vitae enim vel nisi feugiat ultricies. Phasellus...
+                                    .price  $15.00
+                                    a(href="product-detail.html")
+                                        button.btn.btn-orange buy now
+                            .col-sm-3.col-xs-6
+                                .product
+                                    a(href="")
+                                        img.images-drink(src="images/48.png")
+                                        i.fa.fa-link
+                                    h5 VEGETABLE DRINK
+                                    p Integer vitae enim vel nisi feugiat ultricies. Phasellus...
+                                    .price  $35.00
+                                    a(href="product-detail.html")
+                                        button.btn.btn-orange buy now
+                            .col-sm-3.col-xs-6
+                                .product
+                                    a(href="")
+                                        img.images-drink(src="images/49.png")
+                                        i.fa.fa-link
+                                    h5 BERRYMIX SHAKE
+                                    p Integer vitae enim vel nisi feugiat ultricies. Phasellus...
+                                    .price  $20.00
+                                    a(href="product-detail.html")
+                                        button.btn.btn-orange buy now
+                            .col-sm-3.col-xs-6
+                                .product
+                                    a(href="")
+                                        img.images-drink(src="images/50.png")
+                                        i.fa.fa-link
+                                    h5 FRUIT MIX SHAKE
+                                    p Integer vitae enim vel nisi feugiat ultricies. Phasellus...
+                                    .price  $20.00
+                                    a(href="product-detail.html")
+                                        button.btn.btn-orange buy now
+
+
+
+    include jades/footer.jade
+    .background-moblie
+    script(type='text/javascript' src="js/libs/jquery-3.2.1.slim.min.js")
+    script(type='text/javascript' src="js/libs/bootstrap-4.0.0.min.js")
+    script(type="text/javascript" src="main.js")

@@ -1,0 +1,63 @@
+.btn-orange{
+  font-size: 14px;
+  color: #222222;
+  font-weight: 700;
+  border-radius: 50px;
+  background: #ff9c00;
+  border: 1px solid transparent;
+  transition: 0.4s;
+  padding: 15px 40px;
+  font-family: 'lato';
+  text-transform: uppercase;
+  &:hover{
+    background: transparent;
+    border: 1px solid #ff9c00;
+    color: #ff9c00;
+  }
+  &:focus{
+    outline: none;
+    box-shadow: 0 0 0 0;
+  }
+}
+html{
+  font-family: 'lato';
+}
+a:hover{
+  text-decoration: none;
+}
+.images-drink{
+  width: 90px!important;
+  height: 165px;
+}
+label{
+  font-size: 14px;
+  color: #777;
+  font-weight: 600;
+  margin-right: 20px
+}
+.margin-50{
+  margin-bottom: 50px;
+}
+
+.content-title{
+  h5{
+    color: #ff9c00;
+    font-size: 40px;
+    font-family: 'Dancing Script';
+  }
+  span{
+    font-size: 22px;
+    font-family: lato;
+    font-weight: 600;
+    text-transform: uppercase;
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  p{
+    font-size: 14px;
+    color: #999;
+    font-family: 'lato';
+    margin-top: 10px;
+  }
+}

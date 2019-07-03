@@ -1,0 +1,104 @@
+.header{
+  background: #ffffff;
+  .header-top {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 0px 20px;
+    align-items: center;
+    .header-top-left{
+      p{
+        font-size: 16px;
+        .fa{
+          color: #ff8916;
+          margin-right: 10px;
+        }
+        a{
+          text-decoration: none;
+          color: black;
+          font-weight: 600;
+          span{
+            color: #777777;
+            font-weight: 400;
+            margin-right: 5px;
+          }
+        }
+      }
+    }
+    .header-logo{
+      width: 120px;
+      height: 81px;
+      margin-right: 50px;
+      img{
+        width: 100%;
+        height: 100%;
+      }
+    }
+    .header-top-right{
+      .top-icon{
+        display: flex;
+        margin-bottom: 10px;
+        .fa{
+          font-size: 19px;
+          margin-left: 22px;
+          transition: 0.4s;
+          &:hover{
+            color:  #ff9c00;
+          }
+        }
+      }
+      .btn-order{
+        height: 50px;
+        width: 180px;
+        border-radius: 100px;
+        font-weight: 700;
+        text-transform: uppercase;
+        font-size: 15px;
+        background: #ff9c00;
+        border: 1px solid #ff9c00;
+        &:hover{
+          background: transparent;
+        }
+      }
+    }
+  }
+  .header-top{
+    @media (max-width: 767px) {
+      margin: 20px 10px;
+      .header-logo{
+        width: 90px;
+        height: auto;
+        margin-right: 0px;
+        img{
+          object-fit: cover;
+        }
+      }
+      a.header-btn{
+        .icon-bar{
+          width: 23px;
+          height: 3px;
+          background: black;
+          display: block;
+          margin-bottom: 4px;
+        }
+      }
+    }
+  }
+  .header-top{
+    @media (max-width: 991px) and (min-width: 767px) {
+      .header-logo{
+        transform: translateX(-5px);
+      }
+    }
+  }
+}
+.background-moblie {
+  background: rgba(0, 0, 0, 0.73);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  z-index: 2;
+  transition: 0.2s;
+  opacity: 0;
+  visibility: hidden;
+}

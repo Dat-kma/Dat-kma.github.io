@@ -1,0 +1,176 @@
+doctype html
+html(lang="vi")
+    head
+        include jades/head.jade
+        link(rel="stylesheet" href="css/index.css")
+    body
+        include jades/header.jade
+        include jades/navbar.jade
+        section.slide-top
+            #carouselExampleControls.carousel.slide(data-ride='carousel',data-interval='false')
+                .carousel-inner(role='listbox')
+                    .carousel-item.active
+                        img.d-block.w-100(src='images/slide_1.jpg', alt='First slide')
+                        .carousel-item-text
+                            img(src='images/10.png', alt='')
+                            h2 Pizza makes me think that anything is possible
+                            img(src="images/19.png")
+                            p.d-none.d-sm-block
+                                | The one day when the lady met this fellow and they knew it was
+                                br
+                                |                            much more than a hunch the first mate and his Skipper too will do
+                                br
+                                |                        their comfortable knew it hunch the first mate.
+                            .fa.fa-arrow-down
+                            h5 SCROLL DOWN
+
+                    .carousel-item
+                        img.d-block.w-100(src='images/slide_2.jpg', alt='Second slide')
+                        .carousel-item-text
+                            img(src='images/10.png', alt='')
+                            h2 Pizza makes me think that anything is possible
+                            img(src="images/19.png")
+                            p.d-none.d-sm-block
+                                | The one day when the lady met this fellow and they knew it was
+                                br
+                                |                            much more than a hunch the first mate and his Skipper too will do
+                                br
+                                |                        their comfortable knew it hunch the first mate.
+                                .fa.fa-arrow-down
+                                h5 SCROLL DOWN
+
+                    .carousel-item
+                        img.d-block.w-100(src='images/slide_3.jpg', alt='Third slide')
+                        .carousel-item-text
+                            img(src='images/10.png', alt='')
+                            h2 Pizza makes me think that anything is possible
+                            img(src="images/19.png")
+                            p.d-none.d-sm-block
+                                | The one day when the lady met this fellow and they knew it was
+                                br
+                                |                            much more than a hunch the first mate and his Skipper too will do
+                                br
+                                |                        their comfortable knew it hunch the first mate.
+                            .fa.fa-arrow-down
+                            h5 SCROLL DOWN
+
+                a.carousel-control.carousel-control-prev(href='#carouselExampleControls', role='button', data-slide='prev')
+                    span.glyphicon.glyphicon-chevron-left(aria-hidden='true')
+                    span.sr-only Previous
+                a.carousel-control.carousel-control-next(href='#carouselExampleControls', role='button', data-slide='next')
+                    span.glyphicon.glyphicon-chevron-right(aria-hidden='true')
+                    span.sr-only Next
+
+
+        main
+            include jades/our-menu.jade
+            section.main_three
+                .container
+                    .row
+                        .col-sm-6.col-xs-12
+                            .main-img
+                                img(src='images/5.png')
+                        .col-sm-6.col-xs-12
+                            .main_three_text
+                                h5 Welcome to FamilyPizza
+                                h6  ABOUT US
+                                img(src='images/18.png')
+                                p  The one day when the lady met this fellow and they knew it was much more than a hunch the first mate and his Skipper too will do their comfortable its like a kind of torture to have to watch the show the ship set ground on the shore of this uncharted desert isle with too the millionaire and his wife If you have a problem if no one else can help can hire Gilligan the Skipper.
+                                p  The one day when the lady met this fellow and they knew it was much more than a hunch the first mate and his Skipper too will do their comfortable.
+                                .main-icon
+                                    i.fa.fa-facebook
+                                    i.fa.fa-twitter
+                                    i.fa.fa-google-plus
+                                    i.fa.fa-instagram
+                                button.btn.btn-view view-more
+
+            section.main_four
+                .main_four-content
+                    .container
+                        .row
+                            .col-sm-6.col-xs-12
+                                .main_four-text
+                                    h5 Make Your Order
+                                    h6  BOOK ONLINE
+                                    img(src="images/19.png")
+                                    p The one day when the lady met this fellow and they knew it was much more than a hunch the first mate and his Skipper too will do their comfortable knew it was much more than a hunch the first mate.
+                                    .hotline
+                                        p hotline
+                                        a(href="index.html")
+                                            i.fa.fa-phone
+                                            |(04) 36.666.888
+
+                                    p.bold  * FREE DELIVERY WITHIN 10KM DISTANCE
+                            .col-sm-6.col-xs-12
+                                .order-form
+                                    h2  FILL THE ORDER
+                                    .bg-yellow
+                                    .bg-black1
+                                    .form-order
+                                        input.your-name(type='text', placeholder='YOUR NAME*')
+                                        input.your-mail(type='text', placeholder='YOUR MAIL*')
+                                        input.your-phone(type='text', placeholder='YOUR PHONE NUMBER*')
+                                        input.your-adddress(type='text', placeholder='YOUR ADDRESS*')
+                                        button.btn.btn-order_now order-now
+
+            section.main-five
+                .container
+                    .main-five_text
+                        h5 Our Spicy Creature
+                        h6  FEATURES
+                        img(src="images/11.png")
+                        p
+                            | The one day when the lady met this fellow and they knew it was much more than a hunch the first mate and his
+                            br
+                            | Skipper too will do their comfortable.
+
+                    .row
+                        .col-sm-4.col-xs-12
+                            .main_five-img
+                                img(src="images/21.png")
+                                .info
+                                    .name Maria luis
+                                    .service Chief cook
+                                    .info_icon
+                                        i.fa.fa-facebook
+                                        i.fa.fa-twitter
+                                        i.fa.fa-google-plus
+                                        i.fa.fa-instagram
+                                    .icon-mail
+                                        i.fa.fa-envelope-o
+                        .col-sm-4.col-xs-12
+                            .main_five-img
+                                img(src="images/34.png")
+                                .info
+                                    .name Maria luis
+                                    .service Chief cook
+                                    .info_icon
+                                        i.fa.fa-facebook
+                                        i.fa.fa-twitter
+                                        i.fa.fa-google-plus
+                                        i.fa.fa-instagram
+                                    .icon-mail
+                                        i.fa.fa-envelope-o
+                        .col-sm-4.col-xs-12
+                            .main_five-img
+                                img(src="images/35.png")
+                                .info
+                                    .name Maria luis
+                                    .service Chief cook
+                                    .info_icon
+                                        i.fa.fa-facebook
+                                        i.fa.fa-twitter
+                                        i.fa.fa-google-plus
+                                        i.fa.fa-instagram
+                                    .icon-mail
+                                        i.fa.fa-envelope-o
+        include jades/footer.jade
+        .background-moblie
+        script(type='text/javascript' src="js/libs/jquery-3.2.1.slim.min.js")
+        script(type='text/javascript' src="js/libs/bootstrap-4.0.0.min.js")
+        script(type="text/javascript" src="main.js")
+
+
+
+
+
