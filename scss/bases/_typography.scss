@@ -1,32 +1,34 @@
 // Open Sans font
-@font-face {
-  font-family: 'Open Sans';
-  font-weight: $light;
-  src: url('https://statics.vntrip.vn/fonts/opensans-300-normal-webfont.ttf') format('ttf'),
-  url('https://statics.vntrip.vn/fonts/opensans-300-normal-webfont.eot') format('eot'),
-  url('https://statics.vntrip.vn/fonts/opensans-300-normal-webfont.svg') format('svg'),
-  url('https://statics.vntrip.vn/fonts/opensans-300-normal-webfont.woff') format('woff');
-
-}
 
 @font-face {
-  font-family:'Dancing Script';
-  font-weight:normal;
-  font-style:normal;
-  src:url('../webfonts/DancingScript-Bold.ttf') format('ttf'),
-  url('../webfonts/DancingScript-Regular.ttf') format('ttf'),
+  font-family: 'Dancing Script';
+  src: url(../../webfonts/DancingScript-Bold.ttf) ,
+  url(../../webfonts/DancingScript-Regular.ttf);
+  font-weight: 700;
+  font-style: normal;
 }
+@font-face {
+  font-family: "Open Sans";
+  src: url(https://statics.vntrip.vn/fonts/OpenSans/ExtraBoldItalic/OpenSans-ExtraBoldItalic.woff2?v=1.101) format("woff2"),
+  url(https://statics.vntrip.vn/fonts/OpenSans/ExtraBoldItalic/OpenSans-ExtraBoldItalic.woff?v=1.101) format("woff"),
+  url(https://statics.vntrip.vn/fonts/OpenSans/ExtraBoldItalic/OpenSans-ExtraBoldItalic.eot?v=1.101) format("eot"),
+  url(https://statics.vntrip.vn/fonts/OpenSans/ExtraBoldItalic/OpenSans-ExtraBoldItalic.svg?v=1.101) format("svg"),
+  url(https://statics.vntrip.vn/fonts/OpenSans/ExtraBoldItalic/OpenSans-ExtraBoldItalic.ttf?v=1.101) format("ttf");
+  font-weight: 800;
+  font-style: italic;
+}
+
 
 @font-face {
   font-family:'lato';
   font-weight:normal;
   font-style:normal;
-  src:url('../webfonts/Lato.tff') format('ttf'),
+  src:url(../../webfonts/Lato-Bold.tff) ;
 }
 
 @font-face {
   font-family:'Yellowtail';
   font-weight:600;
   font-style:normal;
-  src:url('../webfonts/Yellowtail-Regular.ttf') format('ttf'),
+  src:url(../../webfonts/Yellowtail-Regular.ttf) ;
 }
