@@ -1,4 +1,11 @@
 ﻿ $(function(){
+     $('.header-menu .nav-menu li a').click(function (e) {
+
+        console.log("da click");
+         $('.header-menu .nav-menu li').removeClass('active');
+         $(this).addClass('active');
+
+     })
 
      $('.dish-item').click(function(event) {
          /* Act on the event */
